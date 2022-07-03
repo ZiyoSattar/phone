@@ -1,0 +1,45 @@
+
+
+.header__main {
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  margin: 150px auto;
+  background-color: #fff;
+}
+
+.header {
+  position: relative;
+  background-color: #6A96D8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.header::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-image: url("/img/radio.svg");
+  position: absolute;
+}
+
+.header__text {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+}
+
+
+
